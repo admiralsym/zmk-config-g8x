@@ -10,7 +10,7 @@
     };
 };
 
-&nice_nano_v2_spi {
+&spi1 {
     status = "okay";
 
     cs-gpios = <&gpio0 22 GPIO_ACTIVE_LOW>;
