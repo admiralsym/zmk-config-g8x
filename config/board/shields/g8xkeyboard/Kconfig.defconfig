@@ -1,6 +1,6 @@
-if SHIELD_G8XKEYBOARD
+if SHIELD_G8X
 
 config ZMK_KEYBOARD_NAME
-    default "g8xkeyboard"
+    default "g8x"
 
 endif
