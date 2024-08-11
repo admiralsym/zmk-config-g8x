@@ -1,2 +1,2 @@
-config SHIELD_G8XKEYBOARD
+config SHIELD_G8X
     def_bool $(shields_list_contains, g8x)
