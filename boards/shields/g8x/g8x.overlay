@@ -55,8 +55,7 @@
             <&shift_reg1 10 GPIO_ACTIVE_HIGH>,
             <&shift_reg1 11 GPIO_ACTIVE_HIGH>,
             <&shift_reg1 12 GPIO_ACTIVE_HIGH>,
-            <&shift_reg1 13 GPIO_ACTIVE_HIGH>
-            ;
+            <&shift_reg1 13 GPIO_ACTIVE_HIGH>;
 
         row-gpios = 
             <&gpio0 24 GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN>,
@@ -83,6 +82,6 @@
             RC(7,0)  RC(6,0) RC(6,2) RC(6,3) RC(6,4) RC(6,5) RC(6,6) RC(6,7) RC(6,8) RC(6,10) RC(3,11)
             RC(7,2)  RC(3,0) RC(3,1) RC(3,2) RC(3,3) RC(3,4) RC(3,5) RC(3,6) RC(3,7) RC(3,8) RC(7,10) RC(7,12)
             RC(2,1)  RC(2,0) RC(4,4) RC(4,5) RC(2,3) RC(2,7) RC(2,8) RC(4,8) RC(4,10) RC(4,11)
-         >;
+        >;
     };
 };
