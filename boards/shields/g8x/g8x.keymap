@@ -9,15 +9,15 @@
 
         default_layer {
             bindings = <
-                &kp A  &kp B  &kp C  &kp D  &kp E  &kp F  &kp G
-                &kp H  &kp I  &kp J  &kp K  &kp L  &kp M  &kp N
-                &kp O  &kp P  &kp Q  &kp R  &kp S  &kp T  &kp U
-                &kp V  &kp W  &kp X  &kp Y  &kp Z  &kp N1 &kp N2
-                &kp N3 &kp N4 &kp N5 &kp N6 &kp N7 &kp N8 &kp N9
-                &kp N0 &kp EXCL &kp AT_SIGN &kp HASH &kp DLLR &kp PRCNT &kp CARET
-                &kp AMPS &kp STAR &kp LPAR &kp RPAR &kp EQUAL &kp PLUS &kp MINUS
-                &kp UNDER &kp FSLH &kp QMARK &kp PIPE &kp SEMI &kp COLON &kp LT
-                &kp DOT &kp GT &kp LBKT &kp LBRC &kp RBKT &kp RBRC &kp TILDE
+                &kp Q  &kp W
+                &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp A  &kp S  &kp D
+                &kp F  &kp G  &kp H  &kp J  &kp K
+                &kp L  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &kp SLASH
+                &kp SEMI  &kp APOST  &kp MINUS  &kp EQUAL
+                &kp LBRACKET  &kp RBRACKET  &kp 1  &kp 2  &kp 3  &kp 4  &kp 5  &kp 6  &kp 7  &kp 8  &kp 9  &kp 0
+                &kp GRAVE  &kp TILDE  &kp EXCL  &kp AT  &kp HASH  &kp DOLLAR  &kp PERCENT  &kp CARET  &kp AMP  &kp ASTERISK
+                &kp LPAREN  &kp RPAREN  &kp UNDERSCORE  &kp PLUS
+                &kp LBRACE  &kp RBRACE  &kp PIPE  &kp COLON  &kp DQUOTE  &kp LESS  &kp GREATER  &kp QUESTION
             >;
 
         };
