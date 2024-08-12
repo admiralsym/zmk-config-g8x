@@ -26,7 +26,6 @@
     };
 };
 
-
 / {
     chosen {
         zmk,kscan = &default_kscan;
@@ -35,38 +34,37 @@
 
     default_kscan: kscan {
         compatible = "zmk,kscan-gpio-matrix";
-        label = "default_kscan";
         debounce-press-ms = <1>;
         debounce-release-ms = <5>;
 
         diode-direction = "col2row";
 
         col-gpios = 
-            <&shift_reg1 0 (GPIO_ACTIVE_HIGH)>,
-            <&shift_reg1 1 (GPIO_ACTIVE_HIGH)>,
-            <&shift_reg1 2 (GPIO_ACTIVE_HIGH)>,
-            <&shift_reg1 3 (GPIO_ACTIVE_HIGH)>,
-            <&shift_reg1 4 (GPIO_ACTIVE_HIGH)>,
-            <&shift_reg1 5 (GPIO_ACTIVE_HIGH)>,
-            <&shift_reg1 6 (GPIO_ACTIVE_HIGH)>,
-            <&shift_reg1 7 (GPIO_ACTIVE_HIGH)>,
-            <&shift_reg1 8 (GPIO_ACTIVE_HIGH)>,
-            <&shift_reg1 9 (GPIO_ACTIVE_HIGH)>,
-            <&shift_reg1 10 (GPIO_ACTIVE_HIGH)>,
-            <&shift_reg1 11 (GPIO_ACTIVE_HIGH)>,
-            <&shift_reg1 12 (GPIO_ACTIVE_HIGH)>,
-            <&shift_reg1 13 (GPIO_ACTIVE_HIGH)>;
+            <&shift_reg1 0 GPIO_ACTIVE_HIGH>,
+            <&shift_reg1 1 GPIO_ACTIVE_HIGH>,
+            <&shift_reg1 2 GPIO_ACTIVE_HIGH>,
+            <&shift_reg1 3 GPIO_ACTIVE_HIGH>,
+            <&shift_reg1 4 GPIO_ACTIVE_HIGH>,
+            <&shift_reg1 5 GPIO_ACTIVE_HIGH>,
+            <&shift_reg1 6 GPIO_ACTIVE_HIGH>,
+            <&shift_reg1 7 GPIO_ACTIVE_HIGH>,
+            <&shift_reg1 8 GPIO_ACTIVE_HIGH>,
+            <&shift_reg1 9 GPIO_ACTIVE_HIGH>,
+            <&shift_reg1 10 GPIO_ACTIVE_HIGH>,
+            <&shift_reg1 11 GPIO_ACTIVE_HIGH>,
+            <&shift_reg1 12 GPIO_ACTIVE_HIGH>,
+            <&shift_reg1 13 GPIO_ACTIVE_HIGH>;
 
         row-gpios = 
-            <&gpio0 24 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
-            <&gpio1 0 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
-            <&gpio0 11 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
-            <&gpio1 4 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
-            <&gpio1 6 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
-            <&gpio0 9 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
-            <&gpio0 10 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
-            <&gpio1 11 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
-            <&gpio1 13 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>;
+            <&gpio0 24 GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN>,
+            <&gpio1 0 GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN>,
+            <&gpio0 11 GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN>,
+            <&gpio1 4 GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN>,
+            <&gpio1 6 GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN>,
+            <&gpio0 9 GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN>,
+            <&gpio0 10 GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN>,
+            <&gpio1 11 GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN>,
+            <&gpio1 13 GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN>;
     };
 
     default_transform: matrix_transform {
@@ -85,6 +83,5 @@
             RC(7,0)  RC(7,2) RC(7,10) RC(7,12)
             RC(8,0)  RC(8,1) RC(8,2) RC(8,3) RC(8,4) RC(8,5) RC(8,6) RC(8,7) RC(8,8) RC(8,10) RC(8,11) RC(8,12)
         >;
-
     };
 };
