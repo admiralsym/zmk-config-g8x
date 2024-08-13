@@ -49,25 +49,25 @@
             <&gpio0 10( GPIO_ACTIVE_HIGH)>,
             <&gpio1 11( GPIO_ACTIVE_HIGH)>,
             <&gpio1 13( GPIO_ACTIVE_HIGH)>,
-            <&gpio0 6( GPIO_ACTIVE_HIGH)>
+            <&gpio0 6( GPIO_ACTIVE_HIGH)>,
             <&shift_reg1 1 (GPIO_ACTIVE_HIGH)>,
             <&shift_reg1 2 (GPIO_ACTIVE_HIGH)>,
             <&shift_reg1 3 (GPIO_ACTIVE_HIGH)>,
-            <&shift_reg1 4 (GPIO_ACTIVE_HIGH)>,
+            <&shift_reg1 4 (GPIO_ACTIVE_HIGH)>;
             
 
 
         row-gpios =   
             
-            <&shift_reg1 6 (GPIO_ACTIVE_HIGH)>,
-            <&shift_reg1 7 (GPIO_ACTIVE_HIGH)>,
-            <&shift_reg1 9 (GPIO_ACTIVE_HIGH)>,
-            <&shift_reg1 10 (GPIO_ACTIVE_HIGH)>,
-            <&shift_reg1 12 (GPIO_ACTIVE_HIGH)>,
-            <&shift_reg1 12 (GPIO_ACTIVE_HIGH)>,
-            <&shift_reg1 13 (GPIO_ACTIVE_HIGH)>,
-            <&shift_reg1 14 (GPIO_ACTIVE_HIGH)>,
-            <&shift_reg1 15 (GPIO_ACTIVE_HIGH)>;
+            <&shift_reg1 6 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
+            <&shift_reg1 7 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
+            <&shift_reg1 9 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
+            <&shift_reg1 10 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
+            <&shift_reg1 12 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
+            <&shift_reg1 12 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
+            <&shift_reg1 13 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
+            <&shift_reg1 14 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
+            <&shift_reg1 15 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>;
 
     };
 
