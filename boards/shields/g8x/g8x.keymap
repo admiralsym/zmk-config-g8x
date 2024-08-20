@@ -9,15 +9,16 @@
 
         default_layer {
             bindings = <
-                &kp A  &kp A
-                &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A
-                &kp A  &kp A  &kp A  &kp A  &kp A
-                &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A
-                &kp A  &kp A  &kp A  &kp A
-                &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A
-                &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A
-                &kp A  &kp A  &kp A  &kp A
-                &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A
+                &kp a  &kp a  &kp a  &kp a  &kp a  &kp a  &kp a  &kp a  &kp a  &kp a  &kp a  &kp a
+                &kp a  &kp a  &kp a  &kp a
+                &kp a  &kp a  &kp a  &kp a  &kp a  &kp a  &kp a  &kp a  &kp a  &kp a
+                &kp a  &kp a  &kp a  &kp a  &kp a  &kp a  &kp a  &kp a  &kp a  &kp a  &kp a  &kp a
+                &kp a  &kp a  &kp a  &kp a  &kp a
+                &kp a  &kp a  &kp a  &kp a  &kp a  &kp a  &kp a  &kp a  &kp a  &kp a
+                &kp a  &kp a  &kp a  &kp a  &kp a
+                &kp a  &kp a  &kp a  &kp a  &kp a  &kp a  &kp a  &kp a  &kp a  &kp a  &kp a  &kp a
+                &kp a  &kp a
+
             >;
 
         };
