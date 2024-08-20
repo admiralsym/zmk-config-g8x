@@ -16,8 +16,8 @@
                 &kp F1  &kp F2  &kp F3  &kp F4  &kp F5
                 &kp F6  &kp F7  &kp F8  &kp F9  &kp F10 &kp F11 &kp F12
                 &kp ENTER &kp ESC &kp TAB &kp SPACE &kp MINUS
-                &kp EQUAL &kp LBKT &kp RBKT &kp BSLASH &kp SEMI &kp QUOTE
-                &kp COMMA &kp DOT &kp SLASH &kp CAPSLOCK
+                &kp EQUAL &kp LBKT &kp RBKT &kp BSLH &kp SEMI &kp DOUBLE_QUOTES
+                &kp COMMA &kp DOT &kp FSLH &kp CAPSLOCK
                 &kp UP   &kp DOWN &kp LEFT &kp RIGHT
 
             >;
