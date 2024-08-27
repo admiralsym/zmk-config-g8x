@@ -32,7 +32,7 @@
                                                                                                                        &trans
                 &kp TAB	&trans	&trans	&trans	&trans	&trans	&trans	&trans	&trans	&trans	&kp LBKT	&kp RBKT	
                 &kp LSHFT	&trans	&trans	&trans	&trans	&trans	&trans	&trans	&trans	&trans	&kp PG_UP	&kp RSHFT	
-                &kp LCTRL	&kp LWIN	&kp LALT	&trans        &trans       &kp FSLH	&kp DEL	&kp HOME	&kp PG_DN	&kp END
+                &kp LCTRL	&kp LWIN	&kp K_CMENU	&trans        &trans       &kp FSLH	&kp DEL	&kp HOME	&kp PG_DN	&kp END
 
             >;
 
