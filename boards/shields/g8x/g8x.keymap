@@ -6,7 +6,6 @@
 
 #define DEFAULT 0
 #define SECOND 1
-#define THIRD 2
 
 / {
     keymap {
